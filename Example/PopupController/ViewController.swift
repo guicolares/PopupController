@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         }
         
         let container = DemoPopupViewController3.instance()
-        container.closeHandler = { _ in
+        container.closeHandler = {
             popup.dismiss()
         }
         
